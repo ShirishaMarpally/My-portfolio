@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#header{
+    position: fixed;
+    z-index: 1000;
+    top: 0%;
+    background-color:rgba(126, 13, 79, 0.945);
+    width: 100%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+ }
+ .nav{
+    overflow: hidden;
+    background-color: #333;
+ }
+ .nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+ .nav a:hover{
+    background-color: #ddd;
+    color: black;
+ }
+#hero{
+    background-color: palegoldenrod;
+    background-position: top center;
+    position: relative;
+}
+#about{
+    background-color: lightcoral;
+    background-position: top center;
+    position: relative;
+}
+#about .about{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+#about .section-title{
+    text-align: center;
+    color: rgb(18, 153, 113);
+
+}
+#education{
+    background-color: darkgray;
+    background-size: cover;
+    background-position: top center;
+    position:relative;
+}
+#education .section-title{
+    text-align: center;
+    color: rgb(90, 9, 221);
+}
+#education .education{
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+.table{
+    border-color: black;
+}
+#hobbies{
+    background-color: cadetblue;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    color: darkgreen;
+}
+#skills{
+    background-color: salmon;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    color: rgb(72, 21, 167);
+}
+#contact{
+    background-color: burlywood;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    color: rgb(15, 99, 173);
+}
+
+
+
+#footer .footer{
+    min-height: 200px;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+#footer h2{
+    color: aliceblue;
+    font-size:1.8rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 30px;
+    padding-left: 45%;
+}
+#footer .social-item{
+    align-items: center;
+}
+#footer{
+     text-align: center;
+
+}
+    
+
+
